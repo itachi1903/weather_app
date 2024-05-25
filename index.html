@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="nav">
+            <h1 class="logo">weather</h1>
+            <div class="city-input">
+                <input type="text" autocomplete="off" id="city">
+                <button id="submit">submit</button>
+            </div>
+        </div>
+        <div>
+            <div class="fr">
+                <div class="fr-part1">
+                    <div class="temp-can">
+                        <img src="" alt="weather"
+                            id="weather-logo">
+                        <h1 id="date">
+                            <span class="day"></span>
+                            <span class="weather-temp"> <span class="c"></span></span>
+                            <span class="feeling"></span>
+                            <span class="day-date"> </span>
+                            <span class="time"> </span>
+                        </h1>
+                    </div>
+                    <div class="detail-can">
+                        <div class="detail-can-fr">
+                            <div class="address">
+                                <span class="city"></span>&comma;
+                                <span class="province"></span>&comma;
+                                <span class="country"></span>
+                            </div>
+                        </div>
+                        <div class="detail-can-Sr">
+                            <span>feel like : <span class="feellike"></span></span>
+                            <span>wind speed : <span class="windspeed"></span></span>
+                            <span>pressure inHg : <span class="pressure"></span></span>
+                            <span>humidity : <span class="huminaty"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr-part2"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
